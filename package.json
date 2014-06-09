@@ -1,7 +1,7 @@
 {
   "name": "gulp-packer",
   "description": "Minify Javascript",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "homepage": "http://github.com/yanatan16/gulp-packer",
   "repository": "git://github.com/yanatan16/gulp-packer.git",
   "author": "Jon Eisen <jon@joneisen.me> (http://joneisen.me/)",
