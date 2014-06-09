@@ -1,4 +1,4 @@
-![[status](https://secure.travis-ci.org/yanatan16/gulp-packer.png?branch=master)](https://travis-ci.org/yanatan16/gulp-packer)
+[![status](https://secure.travis-ci.org/yanatan16/gulp-packer.png?branch=master)](https://travis-ci.org/yanatan16/gulp-packer)
 
 Minifies javascript with [/packer/](http://dean.edwards.name/packer/)
 
