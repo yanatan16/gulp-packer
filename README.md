@@ -1,20 +1,6 @@
-![status](https://secure.travis-ci.org/yanatan16/gulp-packer.png?branch=master)
+![[status](https://secure.travis-ci.org/yanatan16/gulp-packer.png?branch=master)](https://travis-ci.org/yanatan16/gulp-packer)
 
-## Information
-
-<table>
-<tr>
-<td>Package</td><td>gulp-packer</td>
-</tr>
-<tr>
-<td>Description</td>
-<td>Minifies javascript with [/packer/](http://dean.edwards.name/packer/)</td>
-</tr>
-<tr>
-<td>Node Version</td>
-<td>>= 0.9</td>
-</tr>
-</table>
+Minifies javascript with [/packer/](http://dean.edwards.name/packer/)
 
 ## Usage
 
