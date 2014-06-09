@@ -5,11 +5,12 @@ Minifies javascript with [/packer/](http://dean.edwards.name/packer/)
 ## Usage
 
 ```javascript
-var packer = require('gulp-packer');
+var packer = require('gulp-packer')
+  , streamify = require('gulp-streamify')
 
 gulp.task('js', function() {
   gulp.src('./src/*.js')
-    .pipe(packer({base62: true, shrink: true})
+    .pipe(streamify(packer({base62: true, shrink: true}))
     .pipe(gulp.dest('./build/js/'))
 });
 ```
