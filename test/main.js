@@ -43,8 +43,8 @@ function testAgainst (test, filename) {
     test.ok(newFile.path)
     test.ok(newFile.relative)
     test.ok(newFile.contents)
-    test.equal(newFile.path, __dirname + '/fixtures/' + 'underscore.min.js')
-    test.equal(newFile.relative, 'underscore.min.js')
+    test.equal(newFile.path, __dirname + '/fixtures/' + 'underscore.js')
+    test.equal(newFile.relative, 'underscore.js')
     test.equal(String(newFile.contents), contents)
 
     test.done()
