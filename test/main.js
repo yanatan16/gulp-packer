@@ -27,6 +27,11 @@ tests.shrink_usage = function (test) {
     .on('data', testAgainst(test, 'underscore.packer.shrink.js'))
     .write(createTestFile())
 }
+tests.postfix_usage = function (test) {
+  packer({postfix: ".min"})
+    .on('data', testAgainst(test, 'underscore.packer.postfix.js'))
+    .write(createTestFile())
+}
 
 function testAgainst (test, filename) {
   var filepath = __dirname + '/fixtures/' + filename
