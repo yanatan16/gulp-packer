@@ -29,7 +29,7 @@ tests.shrink_usage = function (test) {
 }
 tests.postfix_usage = function (test) {
   packer({postfix: ".min"})
-    .on('data', testAgainst(test, 'underscore.packer.postfix.js'))
+    .on('data', testAgainst(test, 'underscore.packer.js'))
     .write(createTestFile())
 }
 
