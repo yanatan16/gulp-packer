@@ -8,7 +8,7 @@ module.exports = function (opt) {
   opt = opt || {}
   opt.base62 = opt.base62 || false
   opt.shrink = opt.shrink || false
-  opt.postfix = opt.postfix || '.min'
+  opt.postfix = opt.postfix || ''
 
   function minifyFile(file) {
     if (file.isNull()) return this.emit('data', file) // pass along

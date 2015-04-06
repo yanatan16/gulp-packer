@@ -10,7 +10,7 @@ var packer = require('gulp-packer')
 
 gulp.task('js', function() {
   gulp.src('./src/*.js')
-    .pipe(streamify(packer({base62: true, shrink: true}))
+    .pipe(streamify(packer({base62: true, shrink: true, postfix: '.min'}))
     .pipe(gulp.dest('./build/js/'))
 });
 ```
